@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/02-experiment-tracking/running-mlflow-examples/mlruns/350886467758716645/676604d43ea84840991eb2c4c0adf0ac/artifacts
+end_time: 1685154212607
+entry_point_name: ''
+experiment_id: '350886467758716645'
+lifecycle_stage: active
+run_id: 676604d43ea84840991eb2c4c0adf0ac
+run_name: likeable-horse-245
+run_uuid: 676604d43ea84840991eb2c4c0adf0ac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1685154208395
+status: 3
+tags: []
+user_id: michal

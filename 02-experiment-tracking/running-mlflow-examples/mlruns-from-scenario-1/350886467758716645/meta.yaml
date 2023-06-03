@@ -1,0 +1,6 @@
+artifact_location: file:///mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/02-experiment-tracking/running-mlflow-examples/mlruns/350886467758716645
+creation_time: 1685154208163
+experiment_id: '350886467758716645'
+last_update_time: 1685154208163
+lifecycle_stage: active
+name: my-experiment-1
