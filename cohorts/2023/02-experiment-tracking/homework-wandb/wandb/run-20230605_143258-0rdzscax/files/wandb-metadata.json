@@ -1,0 +1,92 @@
+{
+    "os": "Linux-5.15.90.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-06-05T18:32:59.884193",
+    "startedAt": "2023-06-05T18:32:58.936759",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--wandb_project",
+        "homework-wandb",
+        "--wandb_entity",
+        "michalroztocki",
+        "--data_artifact",
+        "michalroztocki/homework-wandb/NYC-Taxi:v0"
+    ],
+    "state": "running",
+    "program": "/mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/sweep.py",
+    "codePath": "cohorts/2023/02-experiment-tracking/homework-wandb/sweep.py",
+    "git": {
+        "remote": "git@github.com:MichalRoztocki/mlops-zoomcamp-course.git",
+        "commit": "028c4e2f3460b90a1100bf373f870ea0d609ee3f"
+    },
+    "email": "17862116+MichalRoztocki@users.noreply.github.com",
+    "root": "/mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course",
+    "host": "MichalHP",
+    "username": "michal",
+    "executable": "/home/michal/miniconda3/envs/wandb/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2496.007,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2496.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2496.007,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 1006.853931427002,
+        "used": 38.93381118774414
+    },
+    "gpu": "NVIDIA GeForce GTX 1650 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1650 Ti",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 7.65032958984375
+    }
+}

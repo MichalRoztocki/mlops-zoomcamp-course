@@ -1,0 +1,34 @@
+2023-06-05 14:33:15,244 INFO    Thread-155:2460 [wandb_setup.py:_flush():76] Current SDK version is 0.15.3
+2023-06-05 14:33:15,245 INFO    Thread-155:2460 [wandb_setup.py:_flush():76] Configure stats pid to 2460
+2023-06-05 14:33:15,245 INFO    Thread-155:2460 [wandb_setup.py:_flush():76] Loading settings from /home/michal/.config/wandb/settings
+2023-06-05 14:33:15,246 INFO    Thread-155:2460 [wandb_setup.py:_flush():76] Loading settings from /mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/wandb/settings
+2023-06-05 14:33:15,246 INFO    Thread-155:2460 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'entity': 'michalroztocki', 'project': 'homework-wandb', 'root_dir': '/mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb', 'run_id': 'xyhi3ed7', 'sweep_param_path': '/mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/wandb/sweep-etmccoee/config-xyhi3ed7.yaml', 'sweep_id': 'etmccoee'}
+2023-06-05 14:33:15,247 INFO    Thread-155:2460 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-06-05 14:33:15,247 INFO    Thread-155:2460 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'cohorts/2023/02-experiment-tracking/homework-wandb/sweep.py', 'program': '/mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/sweep.py'}
+2023-06-05 14:33:15,248 INFO    Thread-155:2460 [wandb_init.py:_log_setup():507] Logging user logs to /mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/wandb/run-20230605_143315-xyhi3ed7/logs/debug.log
+2023-06-05 14:33:15,249 INFO    Thread-155:2460 [wandb_init.py:_log_setup():508] Logging internal logs to /mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/wandb/run-20230605_143315-xyhi3ed7/logs/debug-internal.log
+2023-06-05 14:33:15,250 INFO    Thread-155:2460 [wandb_init.py:init():547] calling init triggers
+2023-06-05 14:33:15,251 INFO    Thread-155:2460 [wandb_init.py:init():554] wandb.init called with sweep_config: {'max_depth': 7, 'min_samples_leaf': 1, 'min_samples_split': 8, 'n_estimators': 23}
+config: {}
+2023-06-05 14:33:15,251 INFO    Thread-155:2460 [wandb_init.py:init():596] starting backend
+2023-06-05 14:33:15,251 INFO    Thread-155:2460 [wandb_init.py:init():600] setting up manager
+2023-06-05 14:33:15,268 INFO    Thread-155:2460 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-06-05 14:33:15,287 INFO    Thread-155:2460 [wandb_init.py:init():606] backend started and connected
+2023-06-05 14:33:15,302 INFO    Thread-155:2460 [wandb_run.py:_config_callback():1286] config_cb None None {'max_depth': 7, 'min_samples_leaf': 1, 'min_samples_split': 8, 'n_estimators': 23}
+2023-06-05 14:33:15,304 INFO    Thread-155:2460 [wandb_init.py:init():700] updated telemetry
+2023-06-05 14:33:15,539 INFO    Thread-155:2460 [wandb_init.py:init():737] communicating run to backend with 60.0 second timeout
+2023-06-05 14:33:15,976 INFO    Thread-155:2460 [wandb_run.py:_on_init():2177] communicating current version
+2023-06-05 14:33:16,043 INFO    Thread-155:2460 [wandb_run.py:_on_init():2186] got version response 
+2023-06-05 14:33:16,044 INFO    Thread-155:2460 [wandb_init.py:init():787] starting run threads in backend
+2023-06-05 14:33:18,017 INFO    Thread-155:2460 [wandb_run.py:_console_start():2158] atexit reg
+2023-06-05 14:33:18,018 INFO    Thread-155:2460 [wandb_run.py:_redirect():2013] redirect: SettingsConsole.WRAP_RAW
+2023-06-05 14:33:18,018 INFO    Thread-155:2460 [wandb_run.py:_redirect():2078] Wrapping output streams.
+2023-06-05 14:33:18,019 INFO    Thread-155:2460 [wandb_run.py:_redirect():2103] Redirects installed.
+2023-06-05 14:33:18,022 INFO    Thread-155:2460 [wandb_init.py:init():829] run started, returning control to user process
+2023-06-05 14:33:20,065 INFO    Thread-155:2460 [wandb_run.py:_finish():1893] finishing run michalroztocki/homework-wandb/xyhi3ed7
+2023-06-05 14:33:20,065 INFO    Thread-155:2460 [wandb_run.py:_atexit_cleanup():2127] got exitcode: 0
+2023-06-05 14:33:20,068 INFO    Thread-155:2460 [wandb_run.py:_restore():2110] restore
+2023-06-05 14:33:20,068 INFO    Thread-155:2460 [wandb_run.py:_restore():2116] restore done
+2023-06-05 14:33:26,123 INFO    Thread-155:2460 [wandb_run.py:_footer_history_summary_info():3469] rendering history
+2023-06-05 14:33:26,124 INFO    Thread-155:2460 [wandb_run.py:_footer_history_summary_info():3501] rendering summary
+2023-06-05 14:33:26,130 INFO    Thread-155:2460 [wandb_run.py:_footer_sync_info():3428] logging synced files

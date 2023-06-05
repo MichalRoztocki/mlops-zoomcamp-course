@@ -1,0 +1,197 @@
+2023-06-05 14:14:40,451 INFO    StreamThr :2143 [internal.py:wandb_internal():86] W&B internal server running at pid: 2143, started at: 2023-06-05 14:14:40.449047
+2023-06-05 14:14:40,457 DEBUG   HandlerThread:2143 [handler.py:handle_request():144] handle_request: status
+2023-06-05 14:14:40,469 INFO    WriterThread:2143 [datastore.py:open_for_write():85] open: /mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/wandb/run-20230605_141440-dtqryodl/run-dtqryodl.wandb
+2023-06-05 14:14:40,474 DEBUG   SenderThread:2143 [sender.py:send():375] send: header
+2023-06-05 14:14:40,709 DEBUG   SenderThread:2143 [sender.py:send():375] send: run
+2023-06-05 14:14:40,989 INFO    SenderThread:2143 [dir_watcher.py:__init__():219] watching files in: /mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/wandb/run-20230605_141440-dtqryodl/files
+2023-06-05 14:14:40,990 INFO    SenderThread:2143 [sender.py:_start_run_threads():1124] run started: dtqryodl with start time 1685988880.461349
+2023-06-05 14:14:40,991 DEBUG   SenderThread:2143 [sender.py:send_request():402] send_request: summary_record
+2023-06-05 14:14:40,993 DEBUG   HandlerThread:2143 [handler.py:handle_request():144] handle_request: check_version
+2023-06-05 14:14:40,997 INFO    SenderThread:2143 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-05 14:14:41,000 DEBUG   SenderThread:2143 [sender.py:send_request():402] send_request: check_version
+2023-06-05 14:14:41,094 DEBUG   HandlerThread:2143 [handler.py:handle_request():144] handle_request: run_start
+2023-06-05 14:14:41,147 DEBUG   HandlerThread:2143 [system_info.py:__init__():31] System info init
+2023-06-05 14:14:41,148 DEBUG   HandlerThread:2143 [system_info.py:__init__():46] System info init done
+2023-06-05 14:14:41,148 INFO    HandlerThread:2143 [system_monitor.py:start():181] Starting system monitor
+2023-06-05 14:14:41,148 INFO    SystemMonitor:2143 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-06-05 14:14:41,149 INFO    HandlerThread:2143 [system_monitor.py:probe():201] Collecting system info
+2023-06-05 14:14:41,150 INFO    SystemMonitor:2143 [interfaces.py:start():190] Started cpu monitoring
+2023-06-05 14:14:41,151 INFO    SystemMonitor:2143 [interfaces.py:start():190] Started disk monitoring
+2023-06-05 14:14:41,152 INFO    SystemMonitor:2143 [interfaces.py:start():190] Started gpu monitoring
+2023-06-05 14:14:41,154 INFO    SystemMonitor:2143 [interfaces.py:start():190] Started memory monitoring
+2023-06-05 14:14:41,156 INFO    SystemMonitor:2143 [interfaces.py:start():190] Started network monitoring
+2023-06-05 14:14:41,172 DEBUG   HandlerThread:2143 [system_info.py:probe():195] Probing system
+2023-06-05 14:14:41,188 ERROR   gpu       :2143 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-05 14:14:41,243 DEBUG   HandlerThread:2143 [system_info.py:_probe_git():180] Probing git
+2023-06-05 14:14:41,490 DEBUG   HandlerThread:2143 [system_info.py:_probe_git():188] Probing git done
+2023-06-05 14:14:41,491 DEBUG   HandlerThread:2143 [system_info.py:probe():240] Probing system done
+2023-06-05 14:14:41,492 DEBUG   HandlerThread:2143 [system_monitor.py:probe():210] {'os': 'Linux-5.15.90.1-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.9.16', 'heartbeatAt': '2023-06-05T18:14:41.172833', 'startedAt': '2023-06-05T18:14:40.305158', 'docker': None, 'cuda': None, 'args': ('--wandb_project', 'homework-wandb', '--wandb_entity', 'michalroztocki', '--raw_data_path', '../raw_data', '--dest_path', './output'), 'state': 'running', 'program': '/mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/preprocess_data.py', 'codePath': 'cohorts/2023/02-experiment-tracking/homework-wandb/preprocess_data.py', 'git': {'remote': 'git@github.com:MichalRoztocki/mlops-zoomcamp-course.git', 'commit': '028c4e2f3460b90a1100bf373f870ea0d609ee3f'}, 'email': '17862116+MichalRoztocki@users.noreply.github.com', 'root': '/mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course', 'host': 'MichalHP', 'username': 'michal', 'executable': '/home/michal/miniconda3/envs/wandb/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2496.007, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2496.007, 'min': 0.0, 'max': 0.0}, {'current': 2496.007, 'min': 0.0, 'max': 0.0}, {'current': 2496.007, 'min': 0.0, 'max': 0.0}, {'current': 2496.007, 'min': 0.0, 'max': 0.0}, {'current': 2496.007, 'min': 0.0, 'max': 0.0}, {'current': 2496.007, 'min': 0.0, 'max': 0.0}, {'current': 2496.007, 'min': 0.0, 'max': 0.0}, {'current': 2496.007, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 1006.853931427002, 'used': 38.92125701904297}, 'gpu': 'NVIDIA GeForce GTX 1650 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650 Ti', 'memory_total': 4294967296}], 'memory': {'total': 7.65032958984375}}
+2023-06-05 14:14:41,492 INFO    HandlerThread:2143 [system_monitor.py:probe():211] Finished collecting system info
+2023-06-05 14:14:41,493 INFO    HandlerThread:2143 [system_monitor.py:probe():214] Publishing system info
+2023-06-05 14:14:41,493 DEBUG   HandlerThread:2143 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-06-05 14:14:41,498 DEBUG   HandlerThread:2143 [system_info.py:_save_pip():67] Saving pip packages done
+2023-06-05 14:14:41,499 DEBUG   HandlerThread:2143 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-06-05 14:14:41,998 INFO    Thread-12 :2143 [dir_watcher.py:_on_file_created():278] file/dir created: /mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/wandb/run-20230605_141440-dtqryodl/files/requirements.txt
+2023-06-05 14:14:42,000 INFO    Thread-12 :2143 [dir_watcher.py:_on_file_created():278] file/dir created: /mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/wandb/run-20230605_141440-dtqryodl/files/conda-environment.yaml
+2023-06-05 14:14:42,001 INFO    Thread-12 :2143 [dir_watcher.py:_on_file_created():278] file/dir created: /mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/wandb/run-20230605_141440-dtqryodl/files/wandb-summary.json
+2023-06-05 14:14:43,148 DEBUG   HandlerThread:2143 [system_info.py:_save_conda():86] Saving conda packages done
+2023-06-05 14:14:43,156 INFO    HandlerThread:2143 [system_monitor.py:probe():216] Finished publishing system info
+2023-06-05 14:14:43,162 DEBUG   SenderThread:2143 [sender.py:send():375] send: files
+2023-06-05 14:14:43,163 INFO    SenderThread:2143 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-06-05 14:14:43,179 DEBUG   HandlerThread:2143 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-05 14:14:43,180 DEBUG   SenderThread:2143 [sender.py:send_request():402] send_request: stop_status
+2023-06-05 14:14:43,198 ERROR   gpu       :2143 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-05 14:14:43,240 DEBUG   SenderThread:2143 [sender.py:send():375] send: telemetry
+2023-06-05 14:14:43,625 INFO    wandb-upload_0:2143 [upload_job.py:push():137] Uploaded file /tmp/tmppp6boy61wandb/9l3zwosq-wandb-metadata.json
+2023-06-05 14:14:44,028 INFO    Thread-12 :2143 [dir_watcher.py:_on_file_modified():295] file/dir modified: /mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/wandb/run-20230605_141440-dtqryodl/files/conda-environment.yaml
+2023-06-05 14:14:44,031 INFO    Thread-12 :2143 [dir_watcher.py:_on_file_created():278] file/dir created: /mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/wandb/run-20230605_141440-dtqryodl/files/wandb-metadata.json
+2023-06-05 14:14:44,698 DEBUG   HandlerThread:2143 [handler.py:handle_request():144] handle_request: log_artifact
+2023-06-05 14:14:44,699 DEBUG   SenderThread:2143 [sender.py:send_request():402] send_request: log_artifact
+2023-06-05 14:14:45,040 INFO    Thread-12 :2143 [dir_watcher.py:_on_file_created():278] file/dir created: /mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/wandb/run-20230605_141440-dtqryodl/files/output.log
+2023-06-05 14:14:45,205 ERROR   gpu       :2143 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-05 14:14:45,715 DEBUG   HandlerThread:2143 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-05 14:14:46,115 INFO    wandb-upload_1:2143 [upload_job.py:push():95] Uploaded file /home/michal/.local/share/wandb/artifacts/staging/tmp7qty_0eq
+2023-06-05 14:14:47,061 INFO    Thread-12 :2143 [dir_watcher.py:_on_file_modified():295] file/dir modified: /mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/wandb/run-20230605_141440-dtqryodl/files/output.log
+2023-06-05 14:14:47,213 ERROR   gpu       :2143 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-05 14:14:49,220 ERROR   gpu       :2143 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-05 14:14:50,717 DEBUG   HandlerThread:2143 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-05 14:14:51,228 ERROR   gpu       :2143 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-05 14:14:51,613 INFO    wandb-upload_2:2143 [upload_job.py:push():95] Uploaded file /home/michal/.local/share/wandb/artifacts/staging/tmp2_4e2w_t
+2023-06-05 14:14:52,525 INFO    wandb-upload_0:2143 [upload_job.py:push():95] Uploaded file /home/michal/.local/share/wandb/artifacts/staging/tmpsp9_zet8
+2023-06-05 14:14:52,642 INFO    wandb-upload_3:2143 [upload_job.py:push():95] Uploaded file /home/michal/.local/share/wandb/artifacts/staging/tmpdxtk7grv
+2023-06-05 14:14:53,236 ERROR   gpu       :2143 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-05 14:14:53,237 INFO    SenderThread:2143 [sender.py:send_request_log_artifact():1438] logged artifact NYC-Taxi - {'id': 'QXJ0aWZhY3Q6NDc3OTgxMTg3', 'digest': '1f6aa433fa968045de6d9b1f8e229c24', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjc0NDQ2MDEx', 'latestArtifact': None}, 'version': 'latest'}
+2023-06-05 14:14:53,240 DEBUG   SenderThread:2143 [sender.py:send():375] send: exit
+2023-06-05 14:14:53,240 DEBUG   HandlerThread:2143 [handler.py:handle_request():144] handle_request: status_report
+2023-06-05 14:14:53,240 INFO    SenderThread:2143 [sender.py:send_exit():598] handling exit code: 0
+2023-06-05 14:14:53,242 INFO    SenderThread:2143 [sender.py:send_exit():600] handling runtime: 3
+2023-06-05 14:14:53,248 INFO    SenderThread:2143 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-05 14:14:53,251 INFO    SenderThread:2143 [sender.py:send_exit():606] send defer
+2023-06-05 14:14:53,255 DEBUG   SenderThread:2143 [sender.py:send_request():402] send_request: poll_exit
+2023-06-05 14:14:53,256 DEBUG   HandlerThread:2143 [handler.py:handle_request():144] handle_request: defer
+2023-06-05 14:14:53,258 INFO    HandlerThread:2143 [handler.py:handle_request_defer():170] handle defer: 0
+2023-06-05 14:14:53,259 DEBUG   SenderThread:2143 [sender.py:send_request():402] send_request: defer
+2023-06-05 14:14:53,260 INFO    SenderThread:2143 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-06-05 14:14:53,261 INFO    SenderThread:2143 [sender.py:transition_state():626] send defer: 1
+2023-06-05 14:14:53,262 DEBUG   HandlerThread:2143 [handler.py:handle_request():144] handle_request: defer
+2023-06-05 14:14:53,263 INFO    HandlerThread:2143 [handler.py:handle_request_defer():170] handle defer: 1
+2023-06-05 14:14:53,264 DEBUG   SenderThread:2143 [sender.py:send_request():402] send_request: defer
+2023-06-05 14:14:53,265 INFO    SenderThread:2143 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-06-05 14:14:53,265 INFO    SenderThread:2143 [sender.py:transition_state():626] send defer: 2
+2023-06-05 14:14:53,266 DEBUG   HandlerThread:2143 [handler.py:handle_request():144] handle_request: defer
+2023-06-05 14:14:53,267 INFO    HandlerThread:2143 [handler.py:handle_request_defer():170] handle defer: 2
+2023-06-05 14:14:53,269 INFO    HandlerThread:2143 [system_monitor.py:finish():190] Stopping system monitor
+2023-06-05 14:14:53,270 DEBUG   SystemMonitor:2143 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-06-05 14:14:53,271 INFO    HandlerThread:2143 [interfaces.py:finish():202] Joined cpu monitor
+2023-06-05 14:14:53,271 DEBUG   SystemMonitor:2143 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-06-05 14:14:53,272 INFO    HandlerThread:2143 [interfaces.py:finish():202] Joined disk monitor
+2023-06-05 14:14:53,273 DEBUG   SystemMonitor:2143 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-06-05 14:14:53,300 INFO    HandlerThread:2143 [interfaces.py:finish():202] Joined gpu monitor
+2023-06-05 14:14:53,301 INFO    HandlerThread:2143 [interfaces.py:finish():202] Joined memory monitor
+2023-06-05 14:14:53,302 INFO    HandlerThread:2143 [interfaces.py:finish():202] Joined network monitor
+2023-06-05 14:14:53,305 DEBUG   SenderThread:2143 [sender.py:send_request():402] send_request: defer
+2023-06-05 14:14:53,306 INFO    SenderThread:2143 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-06-05 14:14:53,307 INFO    SenderThread:2143 [sender.py:transition_state():626] send defer: 3
+2023-06-05 14:14:53,308 DEBUG   SenderThread:2143 [sender.py:send():375] send: stats
+2023-06-05 14:14:53,308 DEBUG   HandlerThread:2143 [handler.py:handle_request():144] handle_request: defer
+2023-06-05 14:14:53,310 INFO    HandlerThread:2143 [handler.py:handle_request_defer():170] handle defer: 3
+2023-06-05 14:14:53,311 DEBUG   SenderThread:2143 [sender.py:send_request():402] send_request: defer
+2023-06-05 14:14:53,311 INFO    SenderThread:2143 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-06-05 14:14:53,312 INFO    SenderThread:2143 [sender.py:transition_state():626] send defer: 4
+2023-06-05 14:14:53,313 DEBUG   HandlerThread:2143 [handler.py:handle_request():144] handle_request: defer
+2023-06-05 14:14:53,314 INFO    HandlerThread:2143 [handler.py:handle_request_defer():170] handle defer: 4
+2023-06-05 14:14:53,315 DEBUG   SenderThread:2143 [sender.py:send_request():402] send_request: defer
+2023-06-05 14:14:53,315 INFO    SenderThread:2143 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-06-05 14:14:53,316 INFO    SenderThread:2143 [sender.py:transition_state():626] send defer: 5
+2023-06-05 14:14:53,316 DEBUG   HandlerThread:2143 [handler.py:handle_request():144] handle_request: defer
+2023-06-05 14:14:53,317 INFO    HandlerThread:2143 [handler.py:handle_request_defer():170] handle defer: 5
+2023-06-05 14:14:53,319 DEBUG   SenderThread:2143 [sender.py:send():375] send: summary
+2023-06-05 14:14:53,326 INFO    SenderThread:2143 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-05 14:14:53,329 DEBUG   SenderThread:2143 [sender.py:send_request():402] send_request: defer
+2023-06-05 14:14:53,329 INFO    SenderThread:2143 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-06-05 14:14:53,330 INFO    SenderThread:2143 [sender.py:transition_state():626] send defer: 6
+2023-06-05 14:14:53,331 DEBUG   HandlerThread:2143 [handler.py:handle_request():144] handle_request: defer
+2023-06-05 14:14:53,331 INFO    HandlerThread:2143 [handler.py:handle_request_defer():170] handle defer: 6
+2023-06-05 14:14:53,332 DEBUG   SenderThread:2143 [sender.py:send_request():402] send_request: defer
+2023-06-05 14:14:53,333 INFO    SenderThread:2143 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-06-05 14:14:53,339 DEBUG   HandlerThread:2143 [handler.py:handle_request():144] handle_request: status_report
+2023-06-05 14:14:53,440 INFO    SenderThread:2143 [sender.py:transition_state():626] send defer: 7
+2023-06-05 14:14:53,441 DEBUG   HandlerThread:2143 [handler.py:handle_request():144] handle_request: defer
+2023-06-05 14:14:53,441 INFO    HandlerThread:2143 [handler.py:handle_request_defer():170] handle defer: 7
+2023-06-05 14:14:53,442 DEBUG   SenderThread:2143 [sender.py:send_request():402] send_request: defer
+2023-06-05 14:14:53,443 INFO    SenderThread:2143 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-06-05 14:14:54,149 INFO    Thread-12 :2143 [dir_watcher.py:_on_file_modified():295] file/dir modified: /mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/wandb/run-20230605_141440-dtqryodl/files/config.yaml
+2023-06-05 14:14:54,155 INFO    Thread-12 :2143 [dir_watcher.py:_on_file_modified():295] file/dir modified: /mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/wandb/run-20230605_141440-dtqryodl/files/wandb-summary.json
+2023-06-05 14:14:54,580 INFO    SenderThread:2143 [sender.py:transition_state():626] send defer: 8
+2023-06-05 14:14:54,581 DEBUG   HandlerThread:2143 [handler.py:handle_request():144] handle_request: defer
+2023-06-05 14:14:54,581 INFO    HandlerThread:2143 [handler.py:handle_request_defer():170] handle defer: 8
+2023-06-05 14:14:54,582 DEBUG   SenderThread:2143 [sender.py:send_request():402] send_request: defer
+2023-06-05 14:14:54,583 INFO    SenderThread:2143 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-06-05 14:14:54,631 INFO    SenderThread:2143 [sender.py:transition_state():626] send defer: 9
+2023-06-05 14:14:54,632 DEBUG   SenderThread:2143 [sender.py:send():375] send: artifact
+2023-06-05 14:14:54,632 DEBUG   HandlerThread:2143 [handler.py:handle_request():144] handle_request: defer
+2023-06-05 14:14:54,635 INFO    HandlerThread:2143 [handler.py:handle_request_defer():170] handle defer: 9
+2023-06-05 14:14:55,175 INFO    Thread-12 :2143 [dir_watcher.py:_on_file_modified():295] file/dir modified: /mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/wandb/run-20230605_141440-dtqryodl/files/output.log
+2023-06-05 14:14:55,331 INFO    wandb-upload_1:2143 [upload_job.py:push():95] Uploaded file /home/michal/.local/share/wandb/artifacts/staging/tmp7l7urz8z
+2023-06-05 14:14:55,339 INFO    wandb-upload_2:2143 [upload_job.py:push():95] Uploaded file /home/michal/.local/share/wandb/artifacts/staging/tmpc31p_hv8
+2023-06-05 14:14:55,719 DEBUG   HandlerThread:2143 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-05 14:14:56,020 INFO    SenderThread:2143 [sender.py:send_artifact():1474] sent artifact job-git_github.com_MichalRoztocki_mlops-zoomcamp-course.git_coh..s_2023_02-experiment-tracking_homework-wandb_preprocess_data.py - {'id': 'QXJ0aWZhY3Q6NDc3OTgxMzM1', 'digest': 'b80e98e6e94cb06e042e9144eb839c08', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjc0NDQ2MDY3', 'latestArtifact': None}, 'version': 'latest'}
+2023-06-05 14:14:56,021 DEBUG   SenderThread:2143 [sender.py:send_request():402] send_request: defer
+2023-06-05 14:14:56,021 INFO    SenderThread:2143 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-06-05 14:14:56,022 INFO    SenderThread:2143 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-06-05 14:14:56,218 INFO    SenderThread:2143 [dir_watcher.py:finish():395] scan: /mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/wandb/run-20230605_141440-dtqryodl/files
+2023-06-05 14:14:56,225 INFO    SenderThread:2143 [dir_watcher.py:finish():409] scan save: /mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/wandb/run-20230605_141440-dtqryodl/files/conda-environment.yaml conda-environment.yaml
+2023-06-05 14:14:56,235 INFO    SenderThread:2143 [dir_watcher.py:finish():409] scan save: /mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/wandb/run-20230605_141440-dtqryodl/files/config.yaml config.yaml
+2023-06-05 14:14:56,246 INFO    SenderThread:2143 [dir_watcher.py:finish():409] scan save: /mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/wandb/run-20230605_141440-dtqryodl/files/output.log output.log
+2023-06-05 14:14:56,262 INFO    SenderThread:2143 [dir_watcher.py:finish():409] scan save: /mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/wandb/run-20230605_141440-dtqryodl/files/requirements.txt requirements.txt
+2023-06-05 14:14:56,277 INFO    SenderThread:2143 [dir_watcher.py:finish():409] scan save: /mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/wandb/run-20230605_141440-dtqryodl/files/wandb-metadata.json wandb-metadata.json
+2023-06-05 14:14:56,278 INFO    SenderThread:2143 [dir_watcher.py:finish():409] scan save: /mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/wandb/run-20230605_141440-dtqryodl/files/wandb-summary.json wandb-summary.json
+2023-06-05 14:14:56,297 INFO    SenderThread:2143 [sender.py:transition_state():626] send defer: 10
+2023-06-05 14:14:56,299 DEBUG   HandlerThread:2143 [handler.py:handle_request():144] handle_request: defer
+2023-06-05 14:14:56,300 INFO    HandlerThread:2143 [handler.py:handle_request_defer():170] handle defer: 10
+2023-06-05 14:14:56,301 DEBUG   SenderThread:2143 [sender.py:send_request():402] send_request: defer
+2023-06-05 14:14:56,307 INFO    SenderThread:2143 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-06-05 14:14:56,309 INFO    SenderThread:2143 [file_pusher.py:finish():167] shutting down file pusher
+2023-06-05 14:14:56,549 INFO    wandb-upload_3:2143 [upload_job.py:push():137] Uploaded file /mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/wandb/run-20230605_141440-dtqryodl/files/conda-environment.yaml
+2023-06-05 14:14:56,612 INFO    wandb-upload_1:2143 [upload_job.py:push():137] Uploaded file /mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/wandb/run-20230605_141440-dtqryodl/files/config.yaml
+2023-06-05 14:14:56,709 INFO    wandb-upload_2:2143 [upload_job.py:push():137] Uploaded file /mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/wandb/run-20230605_141440-dtqryodl/files/requirements.txt
+2023-06-05 14:14:56,710 INFO    wandb-upload_4:2143 [upload_job.py:push():137] Uploaded file /mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/wandb/run-20230605_141440-dtqryodl/files/wandb-summary.json
+2023-06-05 14:14:56,755 INFO    wandb-upload_0:2143 [upload_job.py:push():137] Uploaded file /mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/wandb/run-20230605_141440-dtqryodl/files/output.log
+2023-06-05 14:14:56,956 INFO    Thread-11 :2143 [sender.py:transition_state():626] send defer: 11
+2023-06-05 14:14:56,957 DEBUG   HandlerThread:2143 [handler.py:handle_request():144] handle_request: defer
+2023-06-05 14:14:56,958 INFO    HandlerThread:2143 [handler.py:handle_request_defer():170] handle defer: 11
+2023-06-05 14:14:56,960 DEBUG   SenderThread:2143 [sender.py:send_request():402] send_request: defer
+2023-06-05 14:14:56,960 INFO    SenderThread:2143 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-06-05 14:14:56,961 INFO    SenderThread:2143 [file_pusher.py:join():172] waiting for file pusher
+2023-06-05 14:14:56,962 INFO    SenderThread:2143 [sender.py:transition_state():626] send defer: 12
+2023-06-05 14:14:56,963 DEBUG   HandlerThread:2143 [handler.py:handle_request():144] handle_request: defer
+2023-06-05 14:14:56,964 INFO    HandlerThread:2143 [handler.py:handle_request_defer():170] handle defer: 12
+2023-06-05 14:14:56,965 DEBUG   SenderThread:2143 [sender.py:send_request():402] send_request: defer
+2023-06-05 14:14:56,965 INFO    SenderThread:2143 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-06-05 14:14:57,064 INFO    SenderThread:2143 [sender.py:transition_state():626] send defer: 13
+2023-06-05 14:14:57,064 DEBUG   HandlerThread:2143 [handler.py:handle_request():144] handle_request: defer
+2023-06-05 14:14:57,065 INFO    HandlerThread:2143 [handler.py:handle_request_defer():170] handle defer: 13
+2023-06-05 14:14:57,066 DEBUG   SenderThread:2143 [sender.py:send_request():402] send_request: defer
+2023-06-05 14:14:57,066 INFO    SenderThread:2143 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-06-05 14:14:57,067 INFO    SenderThread:2143 [sender.py:transition_state():626] send defer: 14
+2023-06-05 14:14:57,068 DEBUG   SenderThread:2143 [sender.py:send():375] send: final
+2023-06-05 14:14:57,068 DEBUG   HandlerThread:2143 [handler.py:handle_request():144] handle_request: defer
+2023-06-05 14:14:57,069 DEBUG   SenderThread:2143 [sender.py:send():375] send: footer
+2023-06-05 14:14:57,070 INFO    HandlerThread:2143 [handler.py:handle_request_defer():170] handle defer: 14
+2023-06-05 14:14:57,072 DEBUG   SenderThread:2143 [sender.py:send_request():402] send_request: defer
+2023-06-05 14:14:57,073 INFO    SenderThread:2143 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-06-05 14:14:57,074 DEBUG   HandlerThread:2143 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-05 14:14:57,074 DEBUG   HandlerThread:2143 [handler.py:handle_request():144] handle_request: server_info
+2023-06-05 14:14:57,075 DEBUG   SenderThread:2143 [sender.py:send_request():402] send_request: poll_exit
+2023-06-05 14:14:57,075 DEBUG   HandlerThread:2143 [handler.py:handle_request():144] handle_request: get_summary
+2023-06-05 14:14:57,076 DEBUG   SenderThread:2143 [sender.py:send_request():402] send_request: server_info
+2023-06-05 14:14:57,076 DEBUG   HandlerThread:2143 [handler.py:handle_request():144] handle_request: sampled_history
+2023-06-05 14:14:57,137 INFO    MainThread:2143 [wandb_run.py:_footer_history_summary_info():3469] rendering history
+2023-06-05 14:14:57,138 INFO    MainThread:2143 [wandb_run.py:_footer_history_summary_info():3501] rendering summary
+2023-06-05 14:14:57,142 INFO    MainThread:2143 [wandb_run.py:_footer_sync_info():3428] logging synced files
+2023-06-05 14:14:57,143 DEBUG   HandlerThread:2143 [handler.py:handle_request():144] handle_request: shutdown
+2023-06-05 14:14:57,144 INFO    HandlerThread:2143 [handler.py:finish():842] shutting down handler
+2023-06-05 14:14:58,076 INFO    WriterThread:2143 [datastore.py:close():298] close: /mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/wandb/run-20230605_141440-dtqryodl/run-dtqryodl.wandb
+2023-06-05 14:14:58,137 INFO    SenderThread:2143 [sender.py:finish():1550] shutting down sender
+2023-06-05 14:14:58,138 INFO    SenderThread:2143 [file_pusher.py:finish():167] shutting down file pusher
+2023-06-05 14:14:58,138 INFO    SenderThread:2143 [file_pusher.py:join():172] waiting for file pusher

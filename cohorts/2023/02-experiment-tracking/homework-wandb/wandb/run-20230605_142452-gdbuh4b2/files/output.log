@@ -1,0 +1,21 @@
+
+[34m[1mwandb[39m[22m:   4 of 4 files downloaded.
+Traceback (most recent call last):
+  File "/mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/train.py", line 65, in <module>
+    run_train()
+  File "/home/michal/miniconda3/envs/wandb/lib/python3.9/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/michal/miniconda3/envs/wandb/lib/python3.9/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/home/michal/miniconda3/envs/wandb/lib/python3.9/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/michal/miniconda3/envs/wandb/lib/python3.9/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/mnt/c/Users/mrozt/Documents/DataTalksClub/mlops-zoomcamp-course/cohorts/2023/02-experiment-tracking/homework-wandb/train.py", line 62, in run_train
+    wandb.log_artifact(artifact)
+  File "/home/michal/miniconda3/envs/wandb/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 345, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/michal/miniconda3/envs/wandb/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 335, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/michal/miniconda3/envs/wandb/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 2775, in log_artifact
+    return self._log_artifact(
